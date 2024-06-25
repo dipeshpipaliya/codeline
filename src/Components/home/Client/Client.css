@@ -1,0 +1,17 @@
+.swiper-button-prev {
+    top: 90%;
+    left: 44%;
+    padding-top: 28px;
+}
+.swiper-button-next{
+    top: 90%;
+   right: 45%;
+    padding-top: 28px;
+}
+
+.swiper-slide {
+    /* text-align: center; */
+    font-size: 18px;
+    /* background: #fff; */
+    padding: 20px 70px 50px 70px;
+}

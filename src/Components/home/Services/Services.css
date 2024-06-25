@@ -1,0 +1,102 @@
+.swipe{
+    /* background-color: rebeccapurple; */
+    width: 50%;
+    padding: 0px;
+}
+
+
+    .dots {
+        /* width: 100%;
+        height: 100%; */
+        top:33px;
+        left:30px;
+        position: absolute;
+        animation: dots 6s infinite linear;
+}
+
+@keyframes dots{
+    0% {
+        transform: rotate(-360deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+ .dots .dot1 {
+color: #008fa8;
+    transform: translate(20px, 16px);
+animation: dot1 1.5s infinite alternate;
+    }
+
+   /* .animation-dot1{
+    } */
+
+    @keyframes dot1{
+        0% {
+            transform: translate(15px, 5px);
+            opacity: 1;
+        }
+        100% {
+            transform: translate(25px, 5px);
+            opacity: 1;
+        }
+    }
+ .dots .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    position: absolute;
+    /* left: 50%;
+    top: 50%; */
+    margin-left: -3px;
+    margin-top: -3px;
+}
+
+.dots .dot2 {
+    color: #232c42;
+    transform: translate(-26px,2px);
+    animation-delay: 0.5s;
+animation: dots2 1.5s infinite alternate;
+}
+
+
+/* .animation-dot2{
+} */
+
+@keyframes dots2{
+    0% {
+        transform: translate(-8px, 8px);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-19px, 19px);
+        opacity: 1;
+    }
+}
+
+
+
+.dots .dot3 {
+    color: #03a9f4;
+    transform: translate(4px, -25px);
+    animation-delay: 1s;
+    animation: dots3 1.5s infinite alternate;
+}
+
+/* .animation-dot3{
+
+} */
+
+
+@keyframes dots3{
+    0% {
+        transform: translate(-5px, -12px);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-10px, -24px);
+        opacity: 1;
+    }
+}

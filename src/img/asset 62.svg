@@ -1,0 +1,20 @@
+<svg width="640" height="650" xmlns="http://www.w3.org/2000/svg">
+	  <linearGradient id="my-cool-gradient" x1="90%" y1="100%" x2="0%" y2="0%">
+	    <stop offset="0%" stop-color="#01569b" />
+	    <stop offset="50%" stop-color="#01569b" />
+	    <stop offset="100%" stop-color="#01569b" />
+	  </linearGradient>
+	<g id="🖥--Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		<g id="0.1-Landing-Page-(Design)" transform="translate(-860 -147)" fill="url(#my-cool-gradient)">
+			<g id="Hero" transform="translate(200 -30)">
+				<g id="Graphic-(Right)" transform="translate(449)">
+					<g id="Pic">
+						<g id="Ovals">
+						<path d="M426.6 827C565.248 827 851 670.345 851 531.634 851 392.923 690.53 177 551.88 177S211 380.292 211 519.003C211 657.714 287.95 827 426.6 827z" id="Oval-1"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
