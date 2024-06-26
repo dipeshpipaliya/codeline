@@ -27,9 +27,9 @@ function home() {
       <Fitness/>
       <Signboards/>
       <Dell/>
-      {/* <Client/>  */}
+      <Client/> 
       {/* <Contact/> */}
-      {/* <Questions/> */}
+      <Questions/>
           </>
   )
 }

@@ -96,11 +96,11 @@ function Services() {
                                             <div class="bar bar-bottom"></div>
                                             <div class="bar bar-left"></div>
                                         </div>
-                                        <h6 className=" py-5 pl-4 text-[20px] text-[#008fa8] font-semibold">
+                                        <h6 className=" sped pl-4 text-[20px] text-[#008fa8] font-semibold">
                                          
                                             {slide.ser}
                                         </h6>
-                                        <h1 className="title-font sm:text-[25px]  w-[89%] pb-5 font-semibold text-gray-900">
+                                        <h1 className="title-font sm:text-[25px]  w-[89%] pb-[10px] font-semibold text-gray-900">
                                           
                                             {slide.mob}
                                         </h1>
@@ -118,7 +118,7 @@ function Services() {
                                             </div>
 
                                             <div class="d-table-cell align-middle">
-                                                <h3 className="pl-[19px] font-extrabold"><a href="#">
+                                                <h3 className="pl-[19px] font-medium"><a href="#">
                                                 
                                                     {slide.sdata}
                                                     </a>
@@ -135,7 +135,7 @@ function Services() {
                                             </div>
 
                                             <div class="d-table-cell align-middle">
-                                                <h3 className="pl-[19px] font-extrabold"><a href="#">
+                                                <h3 className="pl-[19px] font-medium"><a href="#">
                                                 
                                                     {slide.sdata1}
 
@@ -153,8 +153,8 @@ function Services() {
                                             </div>
 
                                             <div class="d-table-cell align-middle">
-                                                <h3 className="pl-[19px] font-extrabold"><a href="#">
-                                                    Flutter Development
+                                                <h3 className="pl-[19px] font-medium"><a href="#">
+                                                 
                                                     {slide.sdata2}
 
                                                     </a>
@@ -171,8 +171,8 @@ function Services() {
                                             </div>
 
                                             <div class="d-table-cell align-middle">
-                                                <h3 className="pl-[19px] font-extrabold"><a href="#">
-                                                    AR/VR Development
+                                                <h3 className="pl-[19px] font-medium"><a href="#">
+                                                   
                                                     {slide.sdata3}
 
                                                     </a>

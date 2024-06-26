@@ -63,7 +63,7 @@
     bottom: var(--swiper-pagination-bottom, 8px);
     /* top: var(--swiper-pagination-top, auto); */
     position: absolute;
-    top: 147px;
+    top: 112px;
     left: -26px;
     width: 20%;
 }

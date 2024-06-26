@@ -11,14 +11,14 @@ function Navbar() {
         </div>
 
         <ul>
-          <li className='font-bold text-[18px] text-white' >
-            <a href="" className='pr-6'>Home</a> 
-            <a href="" className='pr-6'>About</a>
-            <a href="" className='pr-6'>Services</a>
-            <a href="" className='pr-6'>Portfolio</a>
-            <a href="" className='pr-6'>Career</a>
-            <a href="" className='pr-6'>Blog</a>
-            <a href="" className='pr-6 '>Contact</a>
+          <li className='font-bold text-[18px]' >
+            <a href="" className='pr-6  text-white '>Home</a> 
+            <a href="" className='pr-6  text-white'>About</a>
+            <a href="" className='pr-6   text-white'>Services</a>
+            <a href="" className='pr-6   text-white'>Portfolio</a>
+            <a href="" className='pr-6   text-white'>Career</a>
+            <a href="" className='pr-   text-white'>Blog</a>
+            <a href="" className='pr-6   text-white '>Contact</a>
             <button className=' bg-gradient-to-r from-[#17a2b8] to-gray-800   rounded-lg  text-white py-2 px-4 '>    Get in Touch</button>
           </li>
         </ul>

@@ -22,7 +22,15 @@
         transform: rotate(0);
     }
 }
+.swiper-slide {
+    font-size: 18px;
+    padding: 0px;
+}
 
+.sped {
+    padding-top: 22px !important;
+    padding-bottom: 22px !important;
+}
 
  .dots .dot1 {
 color: #008fa8;

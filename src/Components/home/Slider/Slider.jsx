@@ -41,9 +41,9 @@ export function Slider() {
         className="mySwiper "
       >
          <SwiperSlide>
-          <div className=" grid  grid-cols-2 pt-[30px] pb-[100px]   " >
+          <div className=" grid  grid-cols-2 pt-[30px] pb-[100px]  px-[70px]  " >
             <div>
-              <h2 className=" font-bold text-[36px] w-[68%]  text-[#232c42]">
+              <h2 className=" font-bold text-[37px] w-[68%]  text-[#232c42]">
                 One Top Solution For All Your
                 <span className="text-[#17a2b8]"> Business </span> Needs
               </h2>
@@ -80,7 +80,7 @@ export function Slider() {
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <div className=" grid  grid-cols-2 pt-[30px] pb-[100px]  ">
+          <div className=" grid  grid-cols-2 pt-[30px] pb-[100px] px-[70px]">
             <div>
               <h2 className=" font-bold text-[36px] w-[68%]  text-[#232c42]">
                 Stratagic Design And
@@ -120,7 +120,7 @@ export function Slider() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className=" grid  grid-cols-2 pt-[30px] pb-[100px]   ">
+          <div className=" grid  grid-cols-2 pt-[30px] pb-[100px] px-[70px]  ">
             <div>
               <h2 className=" font-bold text-[36px] w-[68%]  text-[#232c42]">
                 Thinking The High Quality

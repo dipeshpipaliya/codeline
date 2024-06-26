@@ -28,13 +28,13 @@ function About() {
                             <div class="bar bar-bottom"></div>
                             <div class="bar bar-left"></div>
                         </div>
-                        <h6 className=' py-5 pl-4 text-[20px] text-[#008fa8] font-semibold'>ABOUT US</h6>
-                        <h1 className="title-font sm:text-[25px]  w-[89%] pb-5 font-semibold text-gray-900">Manage Conversations With Leads And Customers At Scale    </h1>
+                        <h6 className=' pt-[21px] pb-[31px] pl-4 text-[20px] text-[#008fa8] font-semibold'>ABOUT US</h6>
+                        <h1 className="text-left sm:text-[25px]  w-[89%] pb-[10px] font-semibold text-gray-900">Manage Conversations With Leads And Customers At Scale    </h1>
                         <div class="title-bdr">
                             <div class="left-bdr  bg-[#008fa8]"></div>
                             <div class="right-bdr"></div>
                         </div>
-                        <p className="mb-8 leading-relaxed text-[21px]">Codeline infotech was found to deliver technology solution that positively impacted the business, versus just technology solutions that were technically excellent, but may not have delivered on the key business objectives. We achieve this through structured methodology that maps the business impact on every aspect of the technology solution being designed and developed.</p>
+                        <p className= " text-left mb-8 leading-relaxed text-[21px]">Codeline infotech was found to deliver technology solution that positively impacted the business, versus just technology solutions that were technically excellent, but may not have delivered on the key business objectives. We achieve this through structured methodology that maps the business impact on every aspect of the technology solution being designed and developed.</p>
 
                     </div>
                 </div>
