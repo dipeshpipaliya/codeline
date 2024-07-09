@@ -1,0 +1,16 @@
+.animate-smove{
+    animation: smove 2.5s infinite;
+}
+
+@keyframes smove {
+    0% {
+        transform: translateX(0px) translateY(6px);
+    }
+    
+    50% {
+        transform: translateX(0px) translateY(-5px);
+    }
+    100% {
+        transform: translateX(0px) translateY(6px);
+    }
+}

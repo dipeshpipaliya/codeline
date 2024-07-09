@@ -1,11 +1,11 @@
 .swiper-button-prev {
-    top: 90%;
-    left: 44%;
+    top: 87%;
+    left: 43%;
     padding-top: 28px;
 }
 .swiper-button-next{
-    top: 90%;
-   right: 45%;
+    top: 87%;
+   right: 43%;
     padding-top: 28px;
 }
 
@@ -14,4 +14,67 @@
     font-size: 18px;
     /* background: #fff; */
     /* padding: 20px 70px 50px 70px; */
+}
+
+
+
+.client-effect {
+    width: 50px;
+    height: 50px;
+    top: 60px;
+    position: relative;
+    left: 33%;
+    opacity: 0.2;
+    animation: rotation 12.8s steps(1) 0s infinite;
+}
+.client-effect .bar-top {
+    width: 100%;
+    height: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: left top;
+    transform: scale(0, 1);
+    animation: bar-top 3.2s linear 0s infinite;
+}
+.client-effect .bar-bottom {
+    width: 100%;
+    height: 7px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    animation: bar-bottom 3.2s linear 0s infinite;
+}
+
+.client-effect .bar-left {
+    width: 7px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform-origin: left bottom;
+    transform: scale(1, 0);
+    animation: bar-left 3.2s linear 0s infinite;
+}
+
+.client-effect .bar {
+    background: #01569b;
+}
+.client-effect .bar-right {
+    width: 7px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform-origin: left top;
+    transform: scale(1, 0);
+    animation: bar-right 3.2s linear 0s infinite;
+}
+.client-bdr {
+    position: relative;
+    width: 150px;
+    margin-bottom: 40px;
+    left: 4%;
 }

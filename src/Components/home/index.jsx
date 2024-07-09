@@ -28,8 +28,8 @@ function home() {
       <Signboards/>
       <Dell/>
       <Client/> 
-      {/* <Contact/> */}
-      <Questions/>
+      <Contact/>
+      {/* <Questions/>   */}
           </>
   )
 }

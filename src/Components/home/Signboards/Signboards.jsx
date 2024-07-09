@@ -25,14 +25,14 @@ function Signboards() {
                     <div className="">
                         <div className=" flex pb-7 items-center ">
                             <img src={A65} alt="" className=' w-[10%]' />
-                            <h6 className='text-[22px] text-white pl-5 tracking-wider'>Chat With Attendees</h6>
+                            <h6 className='text-[20px] text-white pl-5 tracking-wider'>Chat With Attendees</h6>
                         </div>
                         <div className=" w-[85px] h-[2px] bg-white "></div>
                     </div>
                     <div className=" py-20">
                         <div className=" flex pb-7 items-center ">
                             <img src={A65} alt="" className=' w-[10%]' />
-                            <h6 className='text-[22px] text-white pl-5 tracking-wider'>Regular Updates of Events</h6>
+                            <h6 className='text-[20px] text-white pl-5 tracking-wider'>Regular Updates of Events</h6>
                         </div>
                         <div className=" w-[85px] h-[2px] bg-white "></div>
                     </div>
@@ -41,16 +41,19 @@ function Signboards() {
                     <div className="">
                         <div className=" flex pb-7 items-center ">
                             <img src={A65} alt="" className=' w-[10%]' />
-                            <h6 className='text-[22px] text-white pl-5 tracking-wider'>Also Works Offline</h6>
+                            <h6 className='text-[20px] text-white pl-5 tracking-wider'>Also Works Offline</h6>
                         </div>
 
                     </div>
-                    <ul class="flex  py-[55px]">
-                        <IoLogoAndroid className=' list-none   bg-white rounded-full p-[12px] mr-9 table cursor-pointer text-[70px]   text-[#008fa8]' />
+                     <div class="flex  py-[55px]">
+                        <div className="w-[22%] mr-9 h-[85%]">
+                            <IoLogoAndroid className=' list-none  bg-white rounded-full p-[12px]  table cursor-pointer text-[80px]   text-[#008fa8]' />
+                        </div>
+                        <div className=" w-[22%] mr-9 h-[85%]">
+                            <FaApple className=' list-none  bg-white rounded-full p-[12px]  table cursor-pointer text-[80px] text-[#008fa8]' />
+                        </div>
 
-                        <FaApple className=' list-none   bg-white rounded-full p-[12px]  table cursor-pointer text-[70px] text-[#008fa8]' />
-
-                    </ul>
+                    </div>
                 </div>
             </div>
 

@@ -46,7 +46,7 @@ function Business() {
     return (
         <>
             <div className="bg-no-repeat py-[130px] bg-cover relative overflow-hidden" style={{ backgroundImage: `url(${Wave})` }}>
-                <div className="container mx-auto grid grid-cols-2 px-5" >
+                <div className="container mx-auto grid grid-cols-2 px-0" >
                     <div data-aos="fade-right" data-aos-offset="300"
                         data-aos-easing="ease-in-sine" data-aos-duration="1000">
                         <div className="title-effect">
@@ -55,8 +55,8 @@ function Business() {
                             <div className="bar bar-bottom"></div>
                             <div className="bar bar-left"></div>
                         </div>
-                        <h6 className='py-5 pl-4 text-[20px] text-[#008fa8] font-semibold'>WHAT WE SERVE</h6>
-                        <h1 className="title-font sm:text-[25px] w-[46%] pb-5 font-semibold text-gray-900">
+                        <h6 className='py-4 pl-4 text-[20px] text-[#008fa8] font-semibold'>WHAT WE SERVE</h6>
+                        <h1 className="title-font sm:text-[25px] w-[50%] pb-2 font-semibold text-gray-900">
                             We Are With You, Every Step Of The Way
                         </h1>
                         <div className="title-bdr">
@@ -75,10 +75,10 @@ function Business() {
                         data-aos-offset="500"
                         data-aos-duration="1000">
 
-                        <div className="absolute top-[14.5rem] left-[11.5rem]  h-[15rem] overflow-hidden">
+                        <div className="absolute top-[14.5rem] left-[10.5rem]  h-[15rem] overflow-hidden">
                             <img src={A62} alt="" className='w-full h-full object-cover' />
                             <div className="absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center text-white p-[1rem]  w-[95%] rounded-lg  bg-none">
-                                <p>{hoveredImage !== null ? imageInfo[hoveredImage].text : imageInfo[lastHoveredImage].text}</p>
+                                <p  className='text-[15px]'>{hoveredImage !== null ? imageInfo[hoveredImage].text : imageInfo[lastHoveredImage].text}</p>
                             </div>
                         </div>
                         {imageInfo.map((img, index) => (

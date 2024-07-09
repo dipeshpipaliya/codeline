@@ -60,3 +60,84 @@
     margin-bottom: 40px;
     left: 76%;
 }
+
+.codeline_faq_area .card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 0;
+}
+.card {
+    position: relative;
+ 
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+.codeline_faq_area .card-header, .codeline_faq_area .card-header:first-child {
+    border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    background-color: transparent;
+    border-bottom: 0;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+h5 {
+    font-size: 22px;
+    line-height: 32px;
+}
+.codeline_faq_area .card .card-header a {
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(52, 69, 199, 0.4);
+    box-shadow: 0px 0px 15px 0px rgba(52, 69, 199, 0.4);
+    border: 0;
+    color: #000000;
+    border-radius: 10px;
+    padding: 0;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    display: block;
+    padding: 23px 30px;
+    position: relative;
+}
+.codeline_faq_area .card .card-header a[aria-expanded="false"]:after {
+    content: "\f078";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.collapse:not(.show) {
+    display: none;
+}
+.codeline_faq_area .card-body {
+    background-position: right center;
+    background-image: linear-gradient(90deg, rgb(35, 44, 66) 0%, rgb(0, 143, 168) 100%);
+    border-radius: 0 0 10px 10px;
+    padding: 15px 30px;
+}
+
+p, li {
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    line-height: 27px;
+    margin-bottom: 0px;
+    color: #5f5f5f;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}

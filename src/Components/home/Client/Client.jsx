@@ -29,19 +29,19 @@ function Client() {
     return (
         <>
             <div className="relative bg-no-repeat center my-[136px] w-full h-full" style={{ backgroundImage: `url(${Clients})` }} >
-                <div className="flex justify-center text-center">
+                <div className=" flex justify-center text-center py-[17px]">
                     <div className="">
-                        <div className="main-effect1">
+                        <div className="client-effect"  >
                             <div className="bar bar-top"></div>
                             <div className="bar bar-right"></div>
                             <div className="bar bar-bottom"></div>
                             <div className="bar bar-left"></div>
                         </div>
-                        <h6 className='py-5 pl-4 text-[20px] text-[#008fa8] font-semibold'>HOW IT WORK</h6>
-                        <h1 className="title-font sm:text-[25px] w-[80%] pl-[150px] pb-5 font-semibold text-gray-900">
-                            Three Simple Step To Started Working Process
+                        <h6 className='py-4  text-[20px] text-[#008fa8] font-semibold'>TESTIMONIAL</h6>
+                        <h1 className="title-font  text-[26px] w-[100%]  pb-3 font-semibold text-gray-900">
+                        Our Client Say
                         </h1>
-                        <div className="main-bdr">
+                        <div className="client-bdr">
                             <div className="left-bdr bg-[#008fa8]"></div>
                             <div className="right-bdr"></div>
                         </div>
@@ -62,6 +62,7 @@ function Client() {
                     ref={swiperRef}
                 >
                     <SwiperSlide>
+                        
                         <div className="text-center px-[20%]">
                             <img src={A42} alt="" className='h-[120px] w-[120px] rounded-[100%] my-0 mx-auto' />
                             <p className="text-lg italic font-medium leading-8 text-[#212121] py-[10px]">

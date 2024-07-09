@@ -22,9 +22,10 @@
   }
   
   a {
-    color: initial !important; /* Reset color to default */
-    text-decoration: none !important; /* Remove underline */
+    /* color: initial !important;  */
+    /* text-decoration: none !important;  */
   }
+
   li a{
     text-decoration: none;
   }

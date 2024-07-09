@@ -23,35 +23,35 @@ function Fitness() {
                     <div className="">
                         <div className=" flex pb-7 items-center ">
                             <img src={A65} alt="" className=' w-[10%]' />
-                            <h6 className='text-[22px] text-white pl-5 tracking-wider'>Customized Workout Plans</h6>
+                            <h6 className='text-[20px] text-white pl-5 tracking-wider'>Customized Workout Plans</h6>
                         </div>
                         <div className=" w-[85px] h-[2px] bg-white "></div>
                     </div>
                     <div className=" py-20">
                         <div className=" flex pb-7 items-center ">
                             <img src={A65} alt="" className=' w-[10%]' />
-                            <h6 className='text-[22px] text-white pl-5 tracking-wider'>Tracking and Monitoring</h6>
+                            <h6 className='text-[20px] text-white pl-5 tracking-wider'>Tracking and Monitoring</h6>
                         </div>
                         <div className=" w-[85px] h-[2px] bg-white "></div>
                     </div>
                     <div className="">
                         <div className=" flex pb-7 items-center ">
                             <img src={A65} alt="" className=' w-[10%]' />
-                            <h6 className='text-[22px] text-white pl-5 tracking-wider'>Habit Tracker</h6>
+                            <h6 className='text-[20px] text-white pl-5 tracking-wider'>Habit Tracker</h6>
                         </div>
                         <div className=" w-[85px] h-[2px] bg-white "></div>
                     </div>
                     <div className="py-20">
                         <div className=" flex pb-7 items-center ">
                             <img src={A65} alt="" className=' w-[10%]' />
-                            <h6 className='text-[22px] text-white pl-5 tracking-wider'>Interactive Video Tutorials</h6>
+                            <h6 className='text-[20px] text-white pl-5 tracking-wider'>Interactive Video Tutorials</h6>
                         </div>
                         <div className=" w-[85px] h-[2px] bg-white "></div>
                     </div>
                     <div className="">
                         <div className=" flex pb-7 items-center ">
                             <img src={A65} alt="" className=' w-[10%]' />
-                            <h6 className='text-[22px] text-white pl-5 tracking-wider'>Community Support</h6>
+                            <h6 className='text-[20px] text-white pl-5 tracking-wider'>Community Support</h6>
                         </div>
                      
                     </div>

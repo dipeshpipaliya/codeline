@@ -1,0 +1,55 @@
+.analog-watch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.watch-face {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    /* border: 10px solid black; */
+    border-radius: 50%;
+    background: white;
+}
+
+.hand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 0;
+}
+
+.hour-hand {
+    width: 50%;
+    height: 6px;
+    background-color: black;
+    transform: translate(-50%, -100%);
+}
+
+.minute-hand {
+    width: 60%;
+    height: 4px;
+    background-color: black;
+    transform: translate(-50%, -100%);
+}
+
+.second-hand {
+    width: 70%;
+    height: 2px;
+    background-color: red;
+    transform: translate(-50%, -100%);
+}
+
+.center-dot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
