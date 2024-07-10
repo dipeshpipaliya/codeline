@@ -35,6 +35,8 @@ function App() {
           <Route path="/get" element={<Get />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/portfolioorder" element={<Persnal/>} />
+
+          
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -7,7 +7,7 @@ import T04 from "../../../img/T04.jpg"
 import T05 from "../../../img/T05.jpg"
 import T06 from "../../../img/T06.jpg"
 import T07 from "../../../img/T07.png"
-
+import "./Tdetails.css"
 
 const blogs = [
     {
@@ -74,6 +74,14 @@ function Tdetails() {
                         ))}
                     </div>
                 </div>
+         
+
+            <div className="title-effect-56">
+                <div className="bar bar-top" ></div>
+                <div className="bar bar-right" ></div>
+                <div className="bar bar-bottom" ></div>
+                <div className="bar bar-left" ></div>
+            </div>
             </section>
         </div>
     )

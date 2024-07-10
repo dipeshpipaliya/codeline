@@ -64,6 +64,7 @@
     /* top: var(--swiper-pagination-top, auto); */
     position: absolute;
     top: 112px;
+    z-index: 0;
     left: -26px;
     width: 20%;
 }

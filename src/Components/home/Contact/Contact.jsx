@@ -1,9 +1,16 @@
 import React from 'react'
 import A47 from "../../../img/asset 47.png"
 import A48 from "../../../img/asset 48.png"
+import { useNavigate } from 'react-router-dom'
 
 function Contact() {
+  const navigate = useNavigate()
+  const handleClick = (route) => {
+    navigate(route);
+  }
+
   return (
+
     <>
       <div className=" px-16 py-20 relative">
         <div className="  bg-[#f6f6f7]  text-center py-[9%]">
@@ -17,7 +24,7 @@ function Contact() {
                 Contact  </span> Us For A Free <span className='text-[#008fa8]'>
                   Review   </span>
                 Of Your Needs</h2>
-              <button className="rounded-lg text-white py-2 px-5 text-[20px] bg-gradient-to-r from-[#17a2b8] to-gray-800">
+              <button className="rounded-lg text-white py-2 px-5 text-[20px] bg-gradient-to-r from-[#17a2b8] to-gray-800" onClick={() => handleClick("/contact")}>
                 Red more
               </button>
             </div>

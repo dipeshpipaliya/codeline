@@ -1,6 +1,6 @@
 
 
-
+import { useNavigate } from 'react-router-dom';
 import React, { useState } from 'react';
 import Wave from "../../../img/wave.png";
 import A62 from "../../../img/asset 62.svg";
@@ -42,6 +42,11 @@ function Business() {
     const handleMouseLeave = () => {
         setHoveredImage(null);
     };
+    
+    const navigate = useNavigate();
+    const handleClick = (route) => {
+      navigate(route);
+    };
 
     return (
         <>
@@ -66,7 +71,7 @@ function Business() {
                         <p className="mb-8 leading-relaxed text-[21px] w-[100%] text-[#5f5f5f]">
                             Whether you are looking for a personal website hosting plan or a business website hosting plan, we are the perfect solution for you. Our powerful website hosting services will not only help you achieve your overall website goals, but will also provide you with the confidence you need in knowing that you are partnered with a reliable and secure website hosting platform.
                         </p>
-                        <button className="rounded-lg text-white py-2 px-5 text-[20px] bg-gradient-to-r from-[#17a2b8] to-gray-800">
+                        <button className="rounded-lg text-white py-2 px-5 text-[20px] bg-gradient-to-r from-[#17a2b8] to-gray-800"  onClick={() => handleClick("/contact")}>
                             Start a project
                         </button>
                     </div>

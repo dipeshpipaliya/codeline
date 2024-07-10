@@ -6,10 +6,15 @@ import A30 from "../../../img/asset 30.jpeg"
 import A31 from "../../../img/asset 31.jpeg"
 import A32 from "../../../img/asset 32.jpeg"
 import A33 from "../../../img/asset 33.jpeg"
+import { useNavigate } from 'react-router-dom';
 
 
 import "./Discover.css"
 function Discover() {
+    const navigate = useNavigate();
+    const handleClick = (route) => {
+      navigate(route);
+    };
     return (
         <>
             <div className=" relative   my-[160px]">
@@ -41,7 +46,8 @@ function Discover() {
                         </p>
 
                         <span className=' text-xl block mb-8 pl-2 border-l-4 border-[#01569b]  text-[#008fa8]'>says Bain's Gerard du Toit </span>
-                        <button className="rounded-lg text-white py-2 px-5 text-[20px] bg-gradient-to-r from-[#17a2b8] to-gray-800">
+               
+                <button className="rounded-lg text-white py-2 px-5 text-[20px] bg-gradient-to-r from-[#17a2b8] to-gray-800"  onClick={() => handleClick("/contact")}>
                             More Portfolio
                         </button>
                     </div>
