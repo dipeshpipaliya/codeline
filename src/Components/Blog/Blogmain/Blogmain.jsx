@@ -14,7 +14,7 @@ function Blogmain  ()  {
     return (
         <div>
             <div className="bg-no-repeat pt-[170px] pb-[85px] relative bg-[length:100%_100%] top-[-186px] right-0" style={{ backgroundImage: `url(${AB1})` }}>
-                <div className="grid grid-cols-2 px-[80px]">
+                <div className="md:grid grid-cols-2 px-[80px]">
                     <div className="py-6 relative flex">
                         <div className="flex items-center ">
                             <div className="z-10">
@@ -36,7 +36,7 @@ function Blogmain  ()  {
 
 
 
-            <div className="container  px-4 pt-4 pb-[140px]  h-[120vh]">
+            <div className="container  px-4 pt-4 pb-[140px]  h-[180vh]">
                 <div className="md:grid grid-cols-2 gap-y-36 gap-x-12">
                     <div className=" relative  h-full" >
                         <div className=" rounded overflow-hidden shadow-lg w-full  ">

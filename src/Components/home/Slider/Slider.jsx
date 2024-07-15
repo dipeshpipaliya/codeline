@@ -27,7 +27,7 @@ export function Slider() {
   const pagination = {
     clickable: true,
     renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + (index + 1) + "</span>";
+      return '<span className="' + className + '">' + (index + 1) + "</span>";
     },
   };
 
@@ -43,9 +43,10 @@ export function Slider() {
         pagination={pagination}
         modules={[Pagination]}
         className="mySwiper"
+        
       >
         <SwiperSlide>
-          <div className="md:grid grid-cols-2 pt-[41px] pb-[100px] px-[70px]">
+          <div className="md:grid grid-cols-2 pt-[41px] pb-[100px] px-[70px]  max-md:px-">
             <div>
               <h2 className="font-bold text-[37px] w-[68%] max-md:w-[100%] text-[#232c42]">
                 One Top Solution For All Your
@@ -59,7 +60,7 @@ export function Slider() {
 
                 onClick={() => handleClick("/contact")}
 
->
+              >
                 Start a project
               </button>
             </div>
@@ -82,7 +83,7 @@ export function Slider() {
               <img
                 src={four}
                 alt=""
-                className="w-[30%] absolute top-[-34px] left-[26rem] max-md:hidden max-md:w-[100%] animate-four"
+                className="w-[30%] absolute top-[-34px] left-[26rem] max-md:hidden  max-lg:hidden  max-md:w-[100%] animate-four"
               />
             </div>
           </div>
@@ -161,7 +162,7 @@ export function Slider() {
       <img
         src={A11}
         alt=""
-        className="absolute top-0 w-[67%] max-md:w-[100%] h-auto z-0 right-0 overflow-hidden bg-cover max-md:hidden"
+        className="absolute top-0 w-[67%] max-md:w-[100%] h-auto z-0 right-0 overflow-hidden bg-cover max-md:hidden "
       />
     </>
   );

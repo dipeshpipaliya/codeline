@@ -15,16 +15,16 @@ function Department() {
 
     return (
         <>
-            <div className="relative overflow-hidden py-[135px]">
+            <div className="relative  max-md:h-[200vh] py-[135px]">
                 <img src={Arrow} alt="" className="translate-x-16 w-[90%]" />
 
-                <section className="absolute top-[6rem] text-gray-600 body-font grid grid-cols-3 gap-8 text-center px-16">
+                <section className=" grid grid-cols-3  md:grid max-md:grid-cols-1   absolute top-[6rem] text-gray-600 body-font  gap-8 text-center px-16">
                     {
                         setData.map((data, index) => (
                             <div key={index} className="">
                                 <div className="">
                                     <div className="h-25 inline-flex items-center justify-center rounded-full text-indigo-500 mb-5 flex-shrink-0">
-                                        <img src={data.image} className="w-[85%] h-full rounded-full object-cover bg-white border-solid" />
+                                        <img src={data.image} className="w-[85%] h-full rounded-full object-cover bg-white border-solid max-md:w-12 max-md:h-12  " />
                                     </div>
                                     <div className="flex-grow pt-[18px]">
                                         <h2 className="text-gray-900 text-[22px] title-font font-semibold mb-3">{data.head}</h2>

@@ -30,7 +30,7 @@ function Discover() {
                 </div>
 
                 
-                <div className="container absolute top-[45%]  grid grid-cols-2 left-[7%] gap-3 p-[0px]" >
+                <div className="container absolute top-[45%]  md:grid grid-cols-2 left-[7%] gap-3 p-[0px]" >
                     <div className='p-[28px]'>
                     <h6 className='   text-[28px] text-[#008fa8] font-semibold'>Discover creative</h6>
                         <h4 className='   pb-[20px] text-[25px] text-[#008fa8] font-semibold'>Work History</h4>
@@ -51,18 +51,18 @@ function Discover() {
                             More Portfolio
                         </button>
                     </div>
-                    <div className="main relative" >
-                        <div className="first-1 absolute top-[28px]  w-[32%] z-10 left-[4rem] ">
-                            <img src={A30} alt="" />
+                    <div className=" relative " >
+                        <div className="first-1  absolute top-[28px]  w-[32%] z-10 left-[4rem]  hidden md:block">
+                            <img src={A30} alt="" className=''/>
                         </div>
-                        <div className="first-1 absolute top-[4rem] left-[27rem] w-[21%] z-10">
-                            <img src={A31} alt="" />
+                        <div className="first-1  absolute top-[4rem] left-[27rem] w-[21%] hidden md:block z-10">
+                            <img src={A31} alt=""  className=" "/>
                         </div>
-                        <div className="first-1 absolute top-15 left-[8.5rem] w-[25%] top-[86%] z-10 " >
-                            <img src={A32} alt="" />
+                        <div className="first-1 absolute top-15 left-[8.5rem] w-[25%] hidden md:block top-[86%] z-10 " >
+                            <img src={A32} alt=""  className=" "/>
                         </div>
-                        <div className="first-1 absolute h-[98%] top-2 right-[0%]">
-                            <img src={A33} alt="" />
+                        <div className="first-1  absolute h-[98%]  hidden md:block *:top-2 right-[0%]">
+                            <img src={A33} alt=""  className='' />
                         </div>
 
                     </div>

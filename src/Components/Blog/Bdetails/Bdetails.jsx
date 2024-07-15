@@ -54,8 +54,8 @@ function Bdetails() {
     };
 
     return (
-        <div className="container px-4 pt-4 pb-[140px]">
-            <div className="md:grid grid-cols-2 gap-y-36 gap-x-12">
+        <div className="container px-4 pt-4 pb-[140px] max-lg:px-1">
+            <div className="grid grid-cols-2 max-lg:grid-cols-2 max-md:grid-cols-1 gap-y-36 gap-x-12">
                 {items.map((item, index) => (
                     <div
                         key={index}

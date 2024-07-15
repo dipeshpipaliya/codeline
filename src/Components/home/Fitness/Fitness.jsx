@@ -17,7 +17,7 @@ function Fitness() {
                             <h6 className='text-[#008fa8] font-medium text-[20px]'>fitness app</h6>
                         </div>
                     </div>
-                    <p className=' text-[23px]  pr-[190px] leading-[38px]'>The Tailored Trainer App is the closest thing you’ll get to having a personal trainer in your pocket! You’ll have access to science-backed training plans that have been proven effective by a world class coach, with over 13 years of experience working with clients in the gym and online across the globe. So if you’re looking for a total body composition transformation, this app will provide you with the body composition focused training plans to help you lose fat, build muscle, and transform your physique. Your Coach, Cody McBroom,</p>
+                    <p className=' text-[23px]  pr-[190px] leading-[38px]'>The Tailored Trainer App is the closest thing you’ll get to having a personal trainer in your pocket! You’ll have access to science-backed training plans that have been proven effective by a world className coach, with over 13 years of experience working with clients in the gym and online across the globe. So if you’re looking for a total body composition transformation, this app will provide you with the body composition focused training plans to help you lose fat, build muscle, and transform your physique. Your Coach, Cody McBroom,</p>
                 </div>
                 <div className=" bg-[#008fa8] pt-12 px-32">
                     <div className="">

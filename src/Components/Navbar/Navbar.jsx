@@ -43,21 +43,21 @@ function Navbar() {
 
   return (
     <>
-      <div className="flex  justify-between py-5 items-center  px-20   relative z-10">
-        <div className="">
+      <div className="flex  justify-between py-5 items-center  px-20  relative z-10 ">
+        <div className=""> 
           <img src={logo} alt="" />
         </div>
 
-        <ul>
-          <li className='font-bold text-[16px] max-sm:hidden' >
-            <a href="" className='pr-6  text-white ' onClick={() => handlePayNow('/')}>Home</a>
-            <a href="" className='pr-6  text-white' onClick={() => handlePayNow('about')}>About</a>
-            <a href="" className='pr-6   text-white' onClick={() => handlePayNow('service')}>Services</a>
-            <a href="" className='pr-6   text-white'  onClick={() => handlePayNow('portfolio')}>Portfolio</a>
-            <a href="" className='pr-6   text-white' onClick={() => handlePayNow('career')}>Career</a>
-            <a href="" className='pr-6   text-white' onClick={() => handlePayNow('training')}>Training</a>
-            <a href="" className='pr-6   text-white' onClick={() => handlePayNow('blog')}>Blog</a>
-            <a href="" className='pr-6   text-white ' onClick={() => handlePayNow('contact')}>Contact</a>
+        <ul className=' max-md:hidden'>
+          <li className='font-bold text-[16px]  ' >
+            <a href="" className='pr-6  text-white md:text-black ' onClick={() => handlePayNow('/')}>Home</a>
+            <a href="" className='pr-6  text-white md:text-black' onClick={() => handlePayNow('about')}>About</a>
+            <a href="" className='pr-6   text-white md:text-black' onClick={() => handlePayNow('service')}>Services</a>
+            <a href="" className='pr-6   text-white md:text-black'  onClick={() => handlePayNow('portfolio')}>Portfolio</a>
+            <a href="" className='pr-6   text-white md:text-black' onClick={() => handlePayNow('career')}>Career</a>
+            <a href="" className='pr-6   text-white md:text-black' onClick={() => handlePayNow('training')}>Training</a>
+            <a href="" className='pr-6   text-white md:text-black' onClick={() => handlePayNow('blog')}>Blog</a>
+            <a href="" className='pr-6   text-white md:text-black ' onClick={() => handlePayNow('contact')}>Contact</a>
             <button className=' bg-gradient-to-r from-[#17a2b8] to-gray-800   rounded-lg  text-white py-2 px-4 '  onClick={() => handlePayNow('get')}>    Get in Touch</button>
           </li>
         </ul>

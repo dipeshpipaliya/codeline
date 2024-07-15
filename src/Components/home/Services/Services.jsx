@@ -59,7 +59,7 @@ function Services() {
                 {slideData.map((slide, index) => (
                     <SwiperSlide key={index} className="swipe">
                         
-                            <div className="grid grid-cols-2">
+                            <div className="md:grid grid-cols-2">
                                 <div className="bg-[#f2f7fb] pl-[6em]">
                                     <div className="pt-20">
                                         <div className="title-effect">

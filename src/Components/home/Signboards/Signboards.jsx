@@ -45,7 +45,7 @@ function Signboards() {
                         </div>
 
                     </div>
-                     <div class="flex  py-[55px]">
+                     <div className="flex  py-[55px]">
                         <div className="w-[22%] mr-9 h-[85%]">
                             <IoLogoAndroid className=' list-none  bg-white rounded-full p-[12px]  table cursor-pointer text-[80px]   text-[#008fa8]' />
                         </div>

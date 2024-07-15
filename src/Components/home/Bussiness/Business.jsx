@@ -42,7 +42,7 @@ function Business() {
     const handleMouseLeave = () => {
         setHoveredImage(null);
     };
-    
+
     const navigate = useNavigate();
     const handleClick = (route) => {
       navigate(route);
@@ -51,7 +51,7 @@ function Business() {
     return (
         <>
             <div className="bg-no-repeat py-[130px] bg-cover relative overflow-hidden" style={{ backgroundImage: `url(${Wave})` }}>
-                <div className="container mx-auto grid grid-cols-2 px-0" >
+                <div className="container mx-auto md:grid grid-cols-2 px-0" >
                     <div data-aos="fade-right" data-aos-offset="300"
                         data-aos-easing="ease-in-sine" data-aos-duration="1000">
                         <div className="title-effect">

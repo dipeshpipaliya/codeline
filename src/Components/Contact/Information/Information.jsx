@@ -37,8 +37,8 @@ function Information() {
                                 </div>
                             </div>
 
-                            <div class="relative mb-6 shadow-[0px_0px_15px_rgba(4,37,120,0.21)] p-7 max-w-xs     overflow-hidden bg-white">
-                                <div class="box d-flex align-items-center">
+                            <div className="relative mb-6 shadow-[0px_0px_15px_rgba(4,37,120,0.21)] p-7 max-w-xs     overflow-hidden bg-white">
+                                <div className="box d-flex align-items-center">
                                     <div className='text-[40px]  pr-4 text-[#37a7f1]'><FaLocationDot /></div>
                                     <div className=" font-semibold">
                                         <h4  >Location </h4>
@@ -46,7 +46,7 @@ function Information() {
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="mb-[15px]" >
+                                    <div className="mb-[15px]" >
                                         <h5 className='text-[#008fa8] font-semibold'>Surat</h5>
                                         <a href="https://www.google.com/maps/place/Codeline+Infotech/@21.2136994,72.8851651,15z/data=!4m5!3m4!1s0x0:0x4fa4fd1fcc62c6cc!8m2!3d21.2136672!4d72.8850348" className='text-[#1d165c] hover:text-[#008fa8] no-underline font-semibold'>
                                             - 316 Anupam Business Hub, Yogi Chowk Road, Opp. Vijay Nagar, Surat, Gujarat 395006
@@ -56,8 +56,8 @@ function Information() {
                                 </div>
                             </div>
 
-                            <div class="relative mb-6 shadow-[0px_0px_15px_rgba(4,37,120,0.21)] p-7 max-w-xs     overflow-hidden bg-white">
-                                <div class="box d-flex align-items-center">
+                            <div className="relative mb-6 shadow-[0px_0px_15px_rgba(4,37,120,0.21)] p-7 max-w-xs     overflow-hidden bg-white">
+                                <div className="box d-flex align-items-center">
                                     <div className='text-[40px]  pr-4 text-[#37a7f1]'><MdEmail /></div>
                                     <div className=" font-semibold">
                                         <h4  >Send a Mail</h4>
@@ -65,7 +65,7 @@ function Information() {
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="mb-[15px]" >
+                                    <div className="mb-[15px]" >
                                        
                                         <a href="mailto:info@codelineinfotech.com" className='text-[#1d165c] hover:text-[#008fa8] no-underline font-semibold'>
                                         info@codelineinfotech.com
@@ -74,8 +74,8 @@ function Information() {
 
                                 </div>
                             </div>
-                            <div class="relative mb-6 shadow-[0px_0px_15px_rgba(4,37,120,0.21)] p-7 max-w-xs     overflow-hidden bg-white">
-                                <div class="box d-flex align-items-center">
+                            <div className="relative mb-6 shadow-[0px_0px_15px_rgba(4,37,120,0.21)] p-7 max-w-xs     overflow-hidden bg-white">
+                                <div className="box d-flex align-items-center">
                                     <div className='text-[40px]  pr-4 text-[#37a7f1]'><FaPhoneAlt /></div>
                                     <div className=" font-semibold">
                                         <h4  >Make a Call</h4>
@@ -83,8 +83,8 @@ function Information() {
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="mb-[15px]" >
-                                        <div class="text">
+                                    <div className="mb-[15px]" >
+                                        <div className="text">
                                             <a href="tel:81550 17575" className='text-[#1d165c] hover:text-[#008fa8] no-underline font-semibold '>+91 81550 17575</a>
                                             <p className='text-[#1d165c] no-underline font-semibold '>Mon - Fri: 09.00 AM to 06.00 PM</p>
                                         </div>

@@ -8,14 +8,14 @@ function Bmain() {
    <>
    <div className=" bg-no-repeat pt-[170px]  pb-[85px] relative  bg-[length:100%_100%]
        top-[-186px] right-0" style={{ backgroundImage: `url(${AB1})` }}>
-      <div className="grid grid-cols-2 px-[80px]" >
+      <div className="md:grid grid-cols-2 px-[80px]" >
         <div className="py-6 relative flex">
           <div className="flex items-center ">
             <div className="z-10">
               <h1 className="font-bold leading-[54px] text-[#232c42] capitalize text-[42px]"> 
               Our <span className="text-[#008fa8]">Blog </span>
               </h1>
-              <p class="text-[20px] font-semibold text-[#008fa8] tracking-[1px]">We’d love to hear from you anytime</p>
+              <p className="text-[20px] font-semibold text-[#008fa8] tracking-[1px]">We’d love to hear from you anytime</p>
             </div>
           </div>
           <div className="">

@@ -34,7 +34,7 @@ function Ourservice() {
             <div className="flex items-center ">
               <div className="z-10">
                 <h1 className="font-bold leading-[54px] text-[#232c42] capitalize text-[42px]">Our <span className="text-[#008fa8]">Services </span></h1>
-                <p class="text-[20px] font-semibold text-[#008fa8] tracking-[1px]">We’d love to hear from you anytime</p>
+                <p className="text-[20px] font-semibold text-[#008fa8] tracking-[1px]">We’d love to hear from you anytime</p>
               </div>
             </div>
             <div className="">
